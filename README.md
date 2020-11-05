@@ -16,5 +16,5 @@ Pressing the [-1] button reduces the number by -1, and pressing the [+1] button 
   
   git commit -m "[~] 내용"
  
-#git push
+## git push
   git push origin main
