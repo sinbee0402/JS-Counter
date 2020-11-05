@@ -6,12 +6,24 @@
     <title>COUNTER</title>
 </head>
 <body>
-    <h1 id="num"></h1>
+    <h1 id="num">0</h1>
     <div class="minus">
-        <button>-1</button>
+        <button onclick="up()">-1</button>
     </div>
     <div class="plus">
-        <button>+1</button>
-    </div>    
+        <button onclick="down()">+1</button>
+    </div>  
+    
+    <script>
+        var num = document.getElementById("num");
+
+        function down() {
+            num++;
+        }
+
+        function up() {
+            num--;
+        }
+    </script>
 </body>
 </html>
